@@ -40,6 +40,20 @@ footer{
     flex-wrap: wrap;
 }
 
+#left-column fieldset p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#left-column input{
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
 @media(max-width:900px){
     #formwrapper{
         flex-direction: column;
